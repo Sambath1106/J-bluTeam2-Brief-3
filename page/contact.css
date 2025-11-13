@@ -163,6 +163,7 @@
         width: 385px;
         height: 200px;
         margin: auto;
+        margin-top: 10px;
     }
         .map img {
             width: 100%;

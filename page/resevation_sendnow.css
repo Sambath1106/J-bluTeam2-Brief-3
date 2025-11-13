@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    .header{
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content:space-around;
+        position: relative;
+        padding-top:5px ;
+    }
+        .logo{
+            height: 68px;
+        }
+            .logo img {
+                width: 68px;
+                height: 68px;
+                object-fit: cover;
+                border-radius: 100px;
+                position:absolute;
+                left: 70px;
+
+            }
+        .menu {
+            width: 500px;
+            height: auto;
+            overflow: hidden;
+            align-content: center;
+        }
+            .menu ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+                .menu ul li {
+                    list-style: none;
+                }
+                    .menu ul li a {
+                        text-decoration: none;
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-family: serif;
+                        color:black
+                    } 
+.menu ul li a:hover{
+    color:#ff2121 ;
+}
+        .text-popines{
+            height: auto;
+            width: auto;
+            align-content: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 23px;
+        }
+
+            .text-popines p {
+                margin-left: 10px;
+                padding-top: 3px;
+                font-size: 16px;
+            }
+
+            .text-popines i {
+                font-size: 25px;
+            }
+
+            .menu ul li a:hover {
+                transform: scale(0.98);
+                transition: 0.5s;
+            }
+.imge{
+    width: 100%;
+    height: 375px;
+    margin-top: 20px;
+    position: relative;
+}
+.imge img {
+    height: 100%;
+    width: 100%;
+}
+.text-header{
+    position: absolute;
+    bottom: 260px;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:color(from color srgb r g b);
+}
+.text-header h1{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+.text-header p {
+    color: white;
+    font-size: 20px;
+}
+.text {
+    text-align: center;
+    margin-top: 40px;
+}
+.text h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text p {
+    font-size: 16px;
+    font-weight: 300;
+}
+.input-form{
+    max-width: 631px;
+    height: 473px;
+    margin: auto;
+}
+
+
+
+.input-box{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+}
+    .text-name{
+        width: 294px;
+        display: flex;
+        flex-direction: row;  
+        margin-top: 5px;
+    }
+    .text-name input {
+        width: 294px;
+        height: 43px;
+        border:1px solid black;
+        background-color: #ffffff;
+        box-shadow: -5px 4px 0 rgba(0, 0, 0, 0.203) ;
+        border-radius: 15px;
+        padding: 0px 8px;
+        font-size: 14px;
+        top:10px;
+    }
+    .icon{
+        position: relative;
+        right: 30px;
+        top: 12px;
+        color: #0e0f0e;
+        opacity: 75%;
+    }
+.input-name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.name{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: black;
+    opacity: 80%;
+}
+.date {
+    margin-right: 20px;
+}
+.time{
+    margin-right: 20px;
+}
+
+.text-type {
+    width: 600px;
+    height:110px ;
+    overflow: hidden;
+}
+    .text-type input {
+        width: 578px;
+        height: 94px;
+        border:1px solid black;
+        background-color: #ffffff;
+        box-shadow: -5px 4px 0 rgba(0, 0, 0, 0.203) ;
+        border-radius: 15px;
+        padding: 0px 8px;
+        padding-bottom: 45px;
+        font-size: 14px;
+        top:10px;
+        margin-top: 5px;
+    }
+.input-description{
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder {
+  color: #888;
+}
+input:hover{
+    transform: translateY(3px);
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+    height: 55px;
+    margin-left: 20px;
+}
+a button {
+    width: 578px;
+    height: 51px;
+    border-radius: 15px;
+    background: #ffb58a;
+    border: none;
+    transition: 0.3s;
+    box-shadow: -5px 4px 0 rgba(0, 0, 0, 0.203) ;
+    margin-top: 40px;
+
+}
+button:hover {
+  background: #ff9860;
+}
+
+
+/* feater */
+.feater {
+    width: 100%;
+    height: 253px;
+    margin-top: 60px;
+    background-color: #422E30;
+}
+.rengle {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+    .item1 {
+        width: 263px;
+        height: 125px;
+    }
+        .item1 img {
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            margin-top: 20px;
+           
+        }
+        .item1 p {
+            font-size: 14px ;
+            font-family: serif;
+            font-weight: 100;
+            color: white;
+        }
+.item2 {
+    width:150px ;
+    height: auto;
+    margin-top: 30px;
+
+}
+.item2 h1 {
+    font-size:20px;
+    margin-top: 10px;
+    color: white;
+}
+.item2 p {
+    font-size: 16px;
+    padding-top: 7px;
+    color: white;
+    font-family: inherit;
+}
+.item4 {
+    width:150px ;
+    height: auto;
+    margin-top: 40px;
+
+}
+.varible {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.item4 h1 {
+    font-size: 20px;
+    color:white;
+}
+.item4 p {
+    font-size:16px;
+     color:white;
+     padding-left: 10px;
+}
+.fa-solid {
+    color: white;
+    padding-right: 10px;
+}
+
+
+
+
+.icon .fa-phone{
+    color: #0e0f0e83;
+}
+.fa-circle-user{
+    color: #0e0f0e83;
+}
